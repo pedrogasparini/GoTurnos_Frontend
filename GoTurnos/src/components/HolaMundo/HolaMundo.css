@@ -1,0 +1,7 @@
+@import url(../GoTurnos/src/assets/styles/styles.css);
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: var(--font);
+}
