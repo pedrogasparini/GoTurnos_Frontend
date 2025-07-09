@@ -1,0 +1,35 @@
+@import url(../../assets/styles/styles.css);
+
+* {
+    font-family: var(--text);
+}
+.header-landing {
+    display: flex;
+    background-color: var(--primary);
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2.5rem;
+    border-bottom-style: solid;
+    border-bottom-color: var(--primary-light);
+}
+
+.header-landing img {
+    width: auto;
+    height: 35px;
+}
+
+.nav {
+    display: flex;
+    gap: 2rem;
+}
+
+.nav a {
+    color: var(--text);
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.auth-buttons {
+    display: flex;
+    gap: 0.5rem;
+}

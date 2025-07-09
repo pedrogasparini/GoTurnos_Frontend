@@ -1,13 +1,12 @@
-import HolaMundo from "./components/HolaMundo/HolaMundo"
-
+import AppRoutes from "./routes/AppRoutes";
+import { BrowserRouter as Router } from "react-router-dom";
 
 function App() {
-
   return (
-    <>
-    <HolaMundo/>
-    </>
-  )
+    <Router>
+      <AppRoutes />
+    </Router>
+  );
 }
 
-export default App
+export default App;

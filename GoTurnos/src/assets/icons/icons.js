@@ -7,3 +7,4 @@ export { CiCalendarDate as CalendarIcon } from "react-icons/ci";
 export { IoMdHelpCircleOutline as HelpIcon} from "react-icons/io";
 export { PiUserListBold as ClientsIcon } from "react-icons/pi";
 export { GoHistory as HistoryIcon } from "react-icons/go";
+export { MdAccessTime as TimeIcon } from "react-icons/md";
