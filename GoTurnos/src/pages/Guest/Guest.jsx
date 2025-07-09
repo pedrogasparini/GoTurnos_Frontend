@@ -1,4 +1,4 @@
-import HeaderLanding from "../../components/HeaderLanding/HeaderLanding";
+import HeaderLanding from "../../components/headerLanding/HeaderLanding";
 import { CalendarIcon, NotificationIcon, TimeIcon } from "../../assets/icons/icons";
 import "./Guest.css";
 

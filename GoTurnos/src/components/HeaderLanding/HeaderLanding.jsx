@@ -1,16 +1,48 @@
 import "./HeaderLanding.css";
 import { Button } from "react-bootstrap";
+import { useState } from "react";
+import Login from "../login/Login"; 
+import Register from "../register/Register";
 
 const HeaderLanding = () => {
-    return (
-        <header className="header-landing">
-                <img src="../src/assets/images/logoGOrecortado.png" alt="logo" />
-            <div className="auth-buttons">
-                <Button variant="primary">Iniciar Sesión</Button>
-                <Button variant="secondary">Registrarse</Button>
-            </div>
-        </header>
-    );
+  const [showLogin, setShowLogin] = useState(false);
+  const [showRegister, setShowRegister] = useState(false);
+
+  const switchToRegister = () => {
+    setShowLogin(false);
+    setShowRegister(true);
+  };
+
+  const switchToLogin = () => {
+    setShowRegister(false);
+    setShowLogin(true);
+  };
+
+  return (
+    <header className="header-landing">
+      <img src="../src/assets/images/logoGOrecortado.png" alt="logo" />
+      <div className="auth-buttons">
+        <Button variant="primary" onClick={() => setShowLogin(true)}>
+          Iniciar Sesión
+        </Button>
+        <Button variant="secondary" onClick={() => setShowRegister(true)}>
+          Registrarse
+        </Button>
+      </div>
+
+      <Login
+        show={showLogin}
+        onHide={() => setShowLogin(false)}
+        onSwitch={switchToRegister}
+      />
+
+      <Register
+        show={showRegister}
+        onHide={() => setShowRegister(false)}
+        onSwitch={switchToLogin}
+      />
+    </header>
+  );
 };
 
 export default HeaderLanding;
