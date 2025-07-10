@@ -24,9 +24,9 @@ const HeaderLanding = () => {
             <img src="../src/assets/images/logoGOrecortado.png" alt="logo" />
             <div className="auth-buttons">
                 <div className="auth-buttons">
-                    <button className="login-btn">Iniciar Sesión</button>
+                    <button className="login-btn" onClick={switchToLogin}>Iniciar Sesión</button>
                         <h2 className="barra-header">|</h2>
-                    <button className="register-btn" >Registrarse</button>
+                    <button className="register-btn"  onClick={switchToRegister}>Registrarse</button>
                 </div>
             </div>
 
