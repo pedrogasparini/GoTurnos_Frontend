@@ -1,12 +1,30 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap');
 
 :root {
+    /* Colores base */
     --primary: #0F1924;
     --primary-light: #21364A;
+    --primary-dark: #0A121A;
+    --secondary-purple-light: #516FFE;
     --secondary: #8FADCC;
+    --secondary-light: #B0C8E4;
+    --secondary-dark: #6A90B0;
+
     --blue: #0A73D9;
+    --blue-light: #4FA3FF;
+    --blue-dark: #0853A1;
+
+    /* Grises y texto */
     --text: #FFFFFF;
     --text-2: #E5E8EB;
+    --text-muted: #A3B1C2;
 
+    /* Estados / Alertas */
+    --success: #3DBB78;
+    --warning: #FFC857;
+    --error: #F44336;
+    --info: #3D91E1;
+
+    /* Fuente */
     --font: 'Inter', sans-serif;
 }

@@ -6,8 +6,9 @@ const HeaderLanding = () => {
         <header className="header-landing">
                 <img src="../src/assets/images/logoGOrecortado.png" alt="logo" />
             <div className="auth-buttons">
-                <Button variant="primary">Iniciar Sesión</Button>
-                <Button variant="secondary">Registrarse</Button>
+                <button className="login-btn">Iniciar Sesión</button>
+                <h2 className="barra-header">|</h2>
+                <button className="register-btn" >Registrarse</button>
             </div>
         </header>
     );
