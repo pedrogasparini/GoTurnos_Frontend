@@ -1,16 +1,12 @@
-@import url(../../assets/styles/styles.css);
-
-* {
-    font-family: var(--text);
-}
 .header-landing {
     display: flex;
     background-color: var(--primary);
     justify-content: space-between;
     align-items: center;
-    padding: 1rem 2.5rem;
+    padding: 0.8rem 2.5rem;
     border-bottom-style: solid;
     border-bottom-color: var(--primary-light);
+    border-bottom-width: 1px;
 }
 
 .header-landing img {
@@ -31,5 +27,30 @@
 
 .auth-buttons {
     display: flex;
-    gap: 0.5rem;
+    gap: 1.5rem;
 }
+
+.login-btn {
+    color: var(--text-2);
+    background-color: transparent;
+    border: none;
+    transition: 0.5s;
+}
+
+
+.register-btn {
+    color: var(--text-2);
+    background-color: transparent;
+    border: none;
+    transition: 0.5s;
+}
+.login-btn:hover, .register-btn:hover {
+    color: var(--secondary-purple-light);
+}
+
+.barra-header {
+    margin: auto;
+    font-size: 25px;
+    color: var(--secondary-purple-light);
+}
+
