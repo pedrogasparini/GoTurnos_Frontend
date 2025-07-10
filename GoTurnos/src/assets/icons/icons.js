@@ -8,3 +8,6 @@ export { IoMdHelpCircleOutline as HelpIcon} from "react-icons/io";
 export { PiUserListBold as ClientsIcon } from "react-icons/pi";
 export { GoHistory as HistoryIcon } from "react-icons/go";
 export { MdAccessTime as TimeIcon } from "react-icons/md";
+export { FaWhatsapp as WhatsappIcon} from "react-icons/fa"
+export { FaInstagram as InstagramIcon} from "react-icons/fa6";
+export { SiGmail as EmailIcon} from "react-icons/si";

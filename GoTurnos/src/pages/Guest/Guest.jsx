@@ -1,10 +1,7 @@
-
-import HeaderLanding from "../../components/headerLanding/HeaderLanding";
-import { CalendarIcon, NotificationIcon, TimeIcon } from "../../assets/icons/icons";
-
+import HeaderLanding from "../../components/HeaderLanding/HeaderLanding";
 import CarouselLanding from "../../components/CarouselLanding/CarouselLanding";
-
 import "./Guest.css";
+import Footer from "../../components/footer/Footer";
 
 const Guest = () => {
     return (
