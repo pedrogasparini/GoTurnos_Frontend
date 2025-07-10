@@ -6,9 +6,9 @@ export default function AppRoutes () {
     return (
         
         <Routes>
-            <Route path="/guest" element={<Guest />}></Route>
-            <Route path="/login" element={<Login/>}></Route>
-            
+
+            <Route path="/" element={<Guest />}>
+            </Route>
 
         </Routes>
 

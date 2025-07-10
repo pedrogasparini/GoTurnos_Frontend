@@ -5,6 +5,7 @@ import Login from "../login/Login";
 import Register from "../register/Register";
 
 const HeaderLanding = () => {
+
   const [showLogin, setShowLogin] = useState(false);
   const [showRegister, setShowRegister] = useState(false);
 
@@ -43,6 +44,7 @@ const HeaderLanding = () => {
       />
     </header>
   );
+
 };
 
 export default HeaderLanding;

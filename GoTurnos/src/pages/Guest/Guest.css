@@ -1,7 +1,6 @@
-@import url(../../assets/styles/styles.css);
-
 body{
     background-color: var(--primary);
+
 }
 
 .landing-container {
@@ -10,21 +9,20 @@ body{
 }
 
 .main-container {
-    align-self: center;
-    width: 70%;
-    padding: 2rem 10%;
-}
-
-.hero {
-    background-color: transparent();
+    margin-top: 5rem;
     border-radius: 1rem;
-    padding: 3rem;
-    height: 400px;
+    background-color:var(--primary-dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     text-align: center;
-    margin-bottom: 3rem;
+    align-self: center;
+    width: 60%;
+    padding: 5rem 1rem 5rem;
 }
 
 .hero-title {
+    color: var(--secondary-purple-light);
     font-size: 2.5rem;
     font-weight: 900;
     margin-bottom: 1rem;
@@ -33,63 +31,5 @@ body{
 .hero-subtitle {
     font-size: 1rem;
     color: var(--text-2);
-    margin-bottom: 1.5rem;
-}
-
-.hero-actions {
-    display: flex;
-    justify-content: center;
-    gap: 1rem;
-}
-
-.benefits {
-    text-align: center;
-}
-
-.benefits-title {
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-    color: var(--text);
-}
-
-.benefits-description {
-    color: var(--text-2);
-    margin-bottom: 2rem;
-}
-
-.benefits-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    gap: 1rem;
-}
-
-.benefits-list div {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: var(--primary-light);
-    border: 1px solid #314d68;
-    border-radius: 0.75rem;
-    padding: 1.25rem;
-}
-
-.benefits-list div  h2{
-    color: var(--text);
-    font-size: 1rem;
-    font-weight: 700;
-    margin-bottom: 0.5rem;
-}
-
-.benefits-list div p{
-    color: var(--secondary);
-    font-size: 0.875rem;
-}
-
-.icon-landing {
-    width: 50px;
-    height: 50px;
-    color: white;
-
+    margin-bottom: 3rem;
 }
